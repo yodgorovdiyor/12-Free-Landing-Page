@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Vampiro+One&display=swap');
+@import url('font.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: Poppins;
+}
+
+/* Section-1 Start */
+
+.section-1 {
+	width: 100%;
+	height: 1000px;
+	background: url(../img/head-bg.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.section-1 img {
+	width: 468px;
+	margin-top: 100px;
+	height: 102px;
+}
+
+.hero {
+	width: 361px;
+	margin-top: 157px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 326px;
+	text-align: left;
+}
+
+.hero h3 {
+	font-family: sf-pro;
+	font-size: 115px;
+	font-weight: 900;
+	color: #EB5757;
+}
+
+.hero span {
+	padding-top: 200px;
+	font-size: 34px;
+	font-weight: 300;
+	color: #4F4F4F;
+}
+
+.hero p {
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #4F4F4F;
+}
+
+.help-me-1 {
+	width: 160px;
+	margin-top: 30px;
+	height: 50px;
+	border-radius: 40px;
+	border: none;
+	background-color: #F2C94C;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+}
+
+.hero a {
+	font-size: 14px;
+	font-weight: 700;
+	color: #EB5757;
+	margin-left: 30px;
+}
+
+/* Section-1 End */
+
+/* Section-2 Start */
+
+.electro-services {
+	width: 100%;
+	margin-top: 50px;
+	height: 1110px;
+	
+}
+
+.electro-services h3 {
+	font-family: sf-pro;
+	font-size: 29px;
+	font-weight: 300;
+	margin-left: 150px;
+	color: #4F4F4F;
+}
+
+.electro-services span {
+	font-family: sf-pro;
+	font-size: 96px;
+	font-weight: 900;
+	color: #EB5757;
+}
+
+.section-2 {
+	width: 100%;
+	padding-top: 60px;
+	padding-left: 200px;
+	height: 920px;
+	background: url(../img/up.png) no-repeat;
+	background-size: 100% 920px;
+}
+
+.replace {
+	width: 322px;
+	height: 328px;
+	border-radius: 30px;
+	background-color: #FFFFFF;
+	text-align: center;
+	float: left;
+	margin-bottom: 72px;
+}
+
+.replace:nth-child(1) {
+	margin-left: 77px;
+}
+
+.replace:nth-child(2) {
+	margin-left: 40px;
+}
+
+.replace:nth-child(3) {
+	margin-left: 40px;
+}
+
+.replace:nth-child(4) {
+	margin-left: 77px;
+}
+
+.replace:nth-child(5) {
+	margin-left: 40px;
+}
+
+.replace:nth-child(6) {
+	margin-left: 40px;
+}
+
+.replace img {
+	width: 322px;
+	height: 228px;
+
+}
+
+.replace h3 {
+	width: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #333333;
+}
+
+.replace button {
+	width: 180px;
+	margin-top: 25px;
+	height: 56px;
+	border: none;
+	border-radius: 18px;
+	background-color: #FF926F;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+.section-1-2 {
+	width: 100%;
+	height: 727px;
+	background: url(../img/down.png) no-repeat;
+	background-size: 100% 727px;
+}
+
+.section-2-list .section-2-item {
+	list-style: none;
+}
+
+.section-2-list {
+	width: 1090px;
+	margin-top: 100px;
+	margin-left: 240px;
+	height: 398px;
+	float: left;
+	text-align: left;
+}
+
+.section-2-item {
+	width: 330px;
+	height: 134px;
+	float: left;
+}
+
+.section-2-item:nth-child(2) {
+	margin-left: 50px;
+}
+
+.section-2-item:nth-child(3) {
+	margin-left: 50px;
+}
+
+.section-2-item:nth-child(4) {
+	margin-top: 40px;
+}
+
+.section-2-item:nth-child(5) {
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.section-2-item:nth-child(6) {
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.section-2-span {
+	width: 24px;
+	height: 24px;
+	border: 1px solid #95B2D8;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 900;
+	color: #95B2D8;
+	padding-top: 1px;
+}
+
+.section-2-item p {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #4F4F4F;
+}
+
+/* Section-2 End */
+
+/* Section-3 Start */
+
+.section-3 {
+	width: 1200px;
+	margin-top: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+}
+
+.section-3 h3 {
+	font-family: sf-pro;
+	font-size: 29px;
+	font-weight: 300;
+	color: #4F4F4F;
+}
+
+.section-3 span {
+	font-family: sf-pro;
+	font-size: 96px;
+	font-weight: 900;
+	color: #EB5757;
+}
+
+.images {
+	width: 1200px;
+	margin-top: 65px;
+	height: 587px;
+} 
+
+.images img {
+	width: 283px;
+	height: 282px;
+	border-radius: 10px;
+}
+
+.images img:nth-child(2) {
+	margin-left: 18px;
+}
+
+.images img:nth-child(3) {
+	margin-left: 18px;
+}
+
+.images img:nth-child(4) {
+	margin-left: 18px;
+}
+
+.images img:nth-child(5) {
+	margin-top: 18px;
+}
+
+.images img:nth-child(6) {
+	margin-left: 18px;
+	margin-top: 18px;
+}
+
+.images img:nth-child(7) {
+	margin-left: 18px;
+	margin-top: 18px;
+}
+
+.images img:nth-child(8) {
+	margin-left: 18px;
+	margin-top: 18px;
+}
+
+/* Section-3 End */
+
+/* Section-4 Start */
+
+.section-4 {
+	width: 100%;
+	margin-top: 50px;
+	height: 698px;
+	background: #FFFFFF url(../img/velik-2.png) no-repeat;
+	background-size: 100% 698px;
+}
+
+.section-4-title {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 648px;
+	background-color: #E15252;
+	border-radius: 0px 0px 50px 50px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.section-4-title h2 {
+	font-family: Medium;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size: 64px;
+}
+
+.section-4-title p {
+	font-family: Regular;
+	font-weight: 500;
+	font-size: 18px;
+	color: #333333;
+}
+
+.forms {
+	width: 374px;
+	height: 266px;
+	margin-left: 110px;
+	float: left;
+}
+
+.form {
+	width: 370px;
+	height: 266px;
+	margin-top: 50px;
+}
+
+.form input {
+	width: 374px;
+	height: 64px;
+	border-radius: 40px;
+	border: none;
+	background-color: #FFFFFF;
+	margin-bottom: 14px;
+}
+
+.form input:nth-child(4) {
+	background-color: #E15252;
+	border: 3px solid #FFFFFF;
+	width: 168px;
+}
+
+.contact-icons {
+	width: 315px;
+	margin-top: 82px;
+	margin-left: 100px;
+	height: 132px;
+	float: left;
+}
+
+.contact-spans {
+	display: inline-block;
+	width: 314px;
+	height: 24px;
+	margin-bottom: 30px;
+}
+
+.contact-spans i {
+	font-size: 24px;
+	float: left;
+	color: #FFFFFF;
+	margin-right: 20px;
+}
+
+.contact-spans p {
+	text-align: left;
+	margin-top: 4px;
+	font-family: Regular;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+/* Section-4 End */
+
+.footer {
+	width: 100%;
+	height: 92px;
+	background-color: #C4C4C4;
+}

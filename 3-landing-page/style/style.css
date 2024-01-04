@@ -1,0 +1,413 @@
+@import url('font.css');
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Section-1 Start */
+
+.section-1 {
+	width: 100%;
+	height: 800px;
+	background: #F2F2F2 url(../img/bg-velik.png) no-repeat;
+	background-size: 100% 840px;
+	background-color: #FFFFFF;
+}
+
+.bg-ellipse {
+	width: 100%;
+	height: 800px;
+	background: url(../img/bg-red.png) no-repeat;
+	background-size: 50% 840px;
+	background-position-x: right;
+}
+
+.bg-ellipse img {
+	width: 45%;
+	height: 800px;
+	float: right;
+}
+
+.section-1-hero {
+	margin-top: 50px;
+	margin-left: 240px;
+	width: 475px;
+	height: 700px;
+	float: left;
+}
+
+.section-1-hero img {
+	width: 420px;
+	height: 62px;
+}
+
+.hero-title span {
+	font-size: 36px;
+	font-weight: 500;
+	color: #E15252;
+	font-family: Regular;
+}
+
+.hero-title {
+	font-family: Medium;
+	margin-top: 190px;
+	font-size: 47px;
+	font-weight: 700;
+	color: #333333;
+}
+
+.hero-text {
+	font-size: 14px;
+	font-weight: 500;
+	color: #333333;
+	margin-top: 29px;
+}
+
+.hero-btn {
+	width: 160px;
+	height: 46px;
+	background-color: #E15252;
+	border: none;
+	border-radius: 42px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFFFFF;
+	margin-top: 42px;
+	font-family: Regular;
+}
+
+.hero-btn:hover {
+	background-color: #FFFFFF;
+	color: #E15252;
+	border: 2px solid #E15252;
+	transition: 1s;
+}
+
+/* Section-1 End */
+
+/* Section-2 Start */
+
+.section-2 {
+	width: 100%;
+	height: 840px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.section-2-title {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 292px;
+	background-color: #F2F2F2;
+	border-radius: 0px 0px 50px 50px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.section-2-title h2 {
+	font-family: Medium;
+	font-weight: 700;
+	color: #333333;
+	font-size: 64px;
+}
+
+.section-2-title p {
+	font-family: Regular;
+	font-weight: 500;
+	font-size: 18px;
+	color: #E15252;
+}
+
+.diagnostic-list .diagnostic-item {
+	list-style: none;
+}
+
+.diagnostic-list {
+	width: 1195px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	height: 362px;
+}
+
+.diagnostic-item {
+	width: 246px;
+	height: 362px;
+	text-align: center;
+	float: left;
+}
+
+.diagnostic-img {
+	width: 224px;
+	height: 224px;
+	background-color: #E15252;
+	border-radius: 50%;
+	padding: 12px;
+}
+
+.diagnostic-img img {
+	width: 200px;
+	height: 200px;
+}
+
+.diagnostic-item h2 {
+	margin-top: 8px;
+	width: 230px;
+	font-family: Medium;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+}
+
+.diagnostic-item p {
+	margin-top: 10px;
+	width: 230px;
+	font-weight: Regular;
+	font-size: 14px;
+	font-weight: 500;
+	color: #4F4F4F;
+}
+
+.diagnostic-item:nth-child(2) {
+	margin-left: 72px;
+}
+
+.diagnostic-item:nth-child(3) {
+	
+	margin-left: 72px;
+}
+
+.diagnostic-item:nth-child(4) {
+	float: right;
+}
+
+.section-2-btn {
+	width: 208px;
+	margin-top: 62px;
+	height: 46px;
+	border-radius: 42px;
+	border: none;
+	background-color: #E15252;
+	font-family: Medium;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFFFFF;
+	box-shadow: 0px 4px 20px 0px rgba(225,82,82,1);
+}
+
+.section-2-btn:hover {
+	background-color: #FFFFFF;
+	color: #E15252;
+	transition: 1s;
+}
+
+/* Section-2 End */
+
+/* Section-3 Start */
+
+.section-3 {
+	width: 100%;
+	height: 840px;
+	background: #E15252 url(../img/velik.png) no-repeat;
+	background-size: 100% 840px;
+	text-align: center;
+}
+
+.section-3 h2 {
+	padding-top: 50px;
+	font-family: Medium;
+	font-size: 64px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+.section-3 p {
+	margin-top: 10px;
+	font-weight: Regular;
+	font-size: 18px;
+	font-weight: 500;
+	color: #333333;
+}
+
+.section-3-about-page {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	height: 648px;
+	background-color: #FFFFFF;
+	border-radius: 50px 50px 0px 0px;
+}
+
+.section-3-img {
+	float: left;
+}
+
+.section-3-img img {
+	width: 496;
+	height: 648px;
+	border-radius: 50px 0px 0px 0px;
+}
+
+.company-name {
+	margin-top: 139px;
+	margin-left: 30px;
+	text-align: left;
+	width: 352px;
+	height: 370px;
+	float: left;
+}
+
+.company-name h3 {
+	width: 352px;
+	font-family: Vampiro One;
+	font-size: 46px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.company-name hr {
+	width: 90px;
+	margin-top: 22px;
+	margin-bottom: 20px;
+	height: 2px;
+	border: none;
+	border-radius: 1px;
+	background-color: #E15252;
+}
+
+.company-name p {
+	font-family: Medium;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
+	letter-spacing: 0em;
+	color: #4F4F4F;
+}
+
+.section-3-btn {
+	width: 208px;
+	margin-top: 30px;
+	height: 46px;
+	border-radius: 42px;
+	border: none;
+	background-color: #E15252;
+	font-family: Medium;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFFFFF;
+	box-shadow: 0px 4px 20px 0px rgba(225,82,82,1);
+}
+
+.section-3-btn:hover {
+	background-color: #FFFFFF;
+	color: #E15252;
+	transition: 1s;
+}
+
+/* Section-3 End */
+
+/* Section-4 Start */
+
+.section-4 {
+	width: 100%;
+	height: 698px;
+	background: #FFFFFF url(../img/velik-2.png) no-repeat;
+	background-size: 100% 698px;
+}
+
+.section-4-title {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 648px;
+	background-color: #E15252;
+	border-radius: 0px 0px 50px 50px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.section-4-title h2 {
+	font-family: Medium;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size: 64px;
+}
+
+.section-4-title p {
+	font-family: Regular;
+	font-weight: 500;
+	font-size: 18px;
+	color: #333333;
+}
+
+.forms {
+	width: 374px;
+	height: 266px;
+	margin-left: 110px;
+	float: left;
+}
+
+.form {
+	width: 370px;
+	height: 266px;
+	margin-top: 50px;
+}
+
+.form input {
+	width: 374px;
+	height: 64px;
+	border-radius: 40px;
+	border: none;
+	background-color: #FFFFFF;
+	margin-bottom: 14px;
+}
+
+.form input:nth-child(4) {
+	background-color: #E15252;
+	border: 3px solid #FFFFFF;
+	width: 168px;
+}
+
+.contact-icons {
+	width: 315px;
+	margin-top: 82px;
+	margin-left: 100px;
+	height: 132px;
+	float: left;
+}
+
+.contact-spans {
+	display: inline-block;
+	width: 314px;
+	height: 24px;
+	margin-bottom: 30px;
+}
+
+.contact-spans i {
+	font-size: 24px;
+	float: left;
+	color: #FFFFFF;
+	margin-right: 20px;
+}
+
+.contact-spans p {
+	text-align: left;
+	margin-top: 4px;
+	font-family: Regular;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+/* Section-4 End */
+
+.footer {
+	width: 100%;
+	height: 92px;
+	background-color: #C4C4C4;
+}
